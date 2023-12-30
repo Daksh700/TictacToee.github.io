@@ -1,0 +1,86 @@
+
+/* .dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/wood.jpeg);
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    font-size: 15vh;
+    color: bisque;
+    font-family: oswald;
+    font-weight: 500;
+}
+.box {
+    height: 18vh;
+    width: 18vh;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    background-color: bisque;
+    
+}
+
+.h22{
+    font-size: 8vmin;
+    color: black;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+ 
+#reset-btn {
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+#reset-btn>h2 {
+    font-size: 1rem;
+    background-image: url(/images/woodt.jpeg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
